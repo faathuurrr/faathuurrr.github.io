@@ -20,16 +20,20 @@ footer {
 /* Laptop */
 @media screen and (max-width: 1024px) {
     header h1 {
-        font-size: 10rem; /* Adjust font size for laptop */
+        font-size: 10rem;
+        /* Adjust font size for laptop */
     }
+
     /* Add more specific styles for laptop if needed */
 }
 
 /* iPad */
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 7rem; /* Adjust font size for iPad */
+        font-size: 7rem;
+        /* Adjust font size for iPad */
     }
+
     /* Add more specific styles for iPad if needed */
 }
 
@@ -39,12 +43,12 @@ footer {
 /* Media query for smaller screens such as iPhones */
 @media screen and (max-width: 767px) {
     .profile .container .row [class^="col-"] {
-        flex-direction: column; /* Change flex direction to column */
+        flex-direction: column;
+        /* Change flex direction to column */
         padding-top: 2rem;
     }
-    .bawah .card{
+
+    .bawah .card {
         height: 35rem;
     }
 }
-
-

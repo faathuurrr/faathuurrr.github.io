@@ -1,54 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" /> -->
-        <script src="https://cdn.tailwindcss.com"></script>
-    <link href="style.css" rel="stylesheet" />
-    <title>Fathur Porto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Fathur Rahmansyah | Software Engineer</title>
 </head>
-
-<body>
-    <main class="flex bg-[#282828] min-h-screen flex-col items-center justify-center px-4 py-8">
-        <div class="flex flex-col gap-8 max-w-screen-lg">
-            <h1 class="text-9xl font-bold text-[#dbdbdb]">Hi.</h1>
-            <div class="flex flex-col md:flex-row gap-8">
-                <div class="w-full md:w-[45%] border border-black shadow-lg bg-[#1f1f1f] p-14 rounded-2xl flex flex-col gap-4 items-center">
-                    <img class="aspect-square w-40 bg-dark rounded-full relative overflow-hidden border border-black" alt="Agung Hapsah Profile" src="fathur.jpg"/>
-                    <span class="text-2xl font-medium text-center text-[#dbdbdb]">Fathur Rahmansyah</span>
-                    <!-- <span class="bg-black text-white text-lg py-1 px-4 rounded-xl">Stay Classy</span> -->
-                    <div class="flex gap-3">
-                        <a href="https://linkedin.com/in/fathur-rahmansyah" target="_blank">
-                            <img alt="Linkedin Rounded SVG Vector Icon" src="https://svgrepo.com/show/494312/linkedin-rounded.svg" style="width: 50px; height: 50px;">
+<body class="bg-[#282828] text-[#dbdbdb] font-sans">
+    <main class="flex min-h-screen flex-col items-center px-4 py-12 md:py-20">
+        <div class="flex flex-col gap-12 max-w-screen-lg w-full">
+            
+            <h1 class="text-8xl font-bold text-[#dbdbdb]">Hi.</h1>
+            <section class="flex flex-col md:flex-row gap-8 items-center md:items-stretch">
+                <div class="w-full md:w-[40%] border border-black shadow-2xl bg-[#1f1f1f] p-10 rounded-3xl flex flex-col gap-6 items-center">
+                    <img class="aspect-square w-44 rounded-full border-4 border-[#282828] shadow-inner object-cover" 
+                         alt="Fathur Rahmansyah Profile" 
+                         src="Asset/fathur.jpg"/>
+                    <div class="text-center">
+                        <h1 class="text-3xl font-bold">Fathur Rahmansyah</h1>
+                        <p class="text-blue-400 font-medium mt-1">Software Engineer</p>
+                        <p class="text-xs text-[#888] mt-2">Jakarta, Indonesia</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="https://linkedin.com/in/fathur-rahmansyah" target="_blank" class="hover:scale-110 transition-transform">
+                            <img alt="LinkedIn" src="https://svgrepo.com/show/494312/linkedin-rounded.svg" class="w-10 h-10">
                         </a>
-                        <a href="https://github.com/faathuurrr" target="_blank">
-                            <img alt="Github 142 SVG Vector Icon" src="https://svgrepo.com/show/512317/github-142.svg" style="color: transparent; width: 50px; height: 50px;">
+                        <a href="https://github.com/faathuurrr" target="_blank" class="hover:scale-110 transition-transform">
+                            <img alt="GitHub" src="https://svgrepo.com/show/512317/github-142.svg" class="w-10 h-10 invert">
                         </a>
                     </div>
+                    <a href="Asset/CV_FATHUR.pdf" target="_blank" class="mt-4 bg-[#dbdbdb] text-black px-6 py-2 rounded-full font-bold text-sm hover:bg-white transition-colors">My Resume</a>
                 </div>
-                <div class="w-full md:w-[100%] border border-black shadow-lg rounded-2xl p-12 flex items-center justify-center bg-[#232323]">
-                    <p class="text-xl text-[#c5c5c5] leading-relaxed text-center tracking-wide">
-                        As a <b>Information Systems</b> student at Universitas Pembangunan Nasional 
-                        “Veteran” Jawa Timur, I have an interest in <b>information technology</b> and 
-                        <b>businesses</b>. My previous experiences in running a business and interning 
-                        have allowed me to cultivate skills in leading and managing a team. I am open to
-                         any opportunity that will allow me to gain <b>valuable</b> skills, insights, and knowledge.
-                        <!-- 24 year old <b>content creator</b>
-                        based in <b>Jakarta</b>
-                        making videos on YouTube under the name <i>Agung Hapsah</i> -->
+
+                <div class="w-full md:w-[60%] border border-black shadow-2xl rounded-3xl p-10 flex flex-col justify-center bg-[#232323]">
+                    <p class="text-lg text-[#c5c5c5] leading-relaxed tracking-wide">
+                        Software Engineer with extensive experience in engineering high stakes, enterprise grade business systems for multinational automotive and heavy mining industries. Proven track record in automating critical workflows for 1,000+ active permits and ensuring data integrity for high value transactions at global firms like Inchcape (Mercedes-Benz) and PT Pamapersada Nusantara. Deeply passionate about Fintech innovation, specializing in market volatility prediction through Deep Learning (LSTM) research. A high impact problem solver who directly engages with stakeholders to translate complex business needs into scalable technical architectures.
                     </p>
                 </div>
-            </div>
-            <!-- <iframe class="aspect-video rounded-2xl border border-black" src="" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe> -->
+            </section>
+
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-[#1f1f1f] border border-black p-6 rounded-2xl">
+                    <h3 class="text-blue-400 font-bold mb-3">Languages</h3>
+                    <p class="text-sm">C#, SQL, Python, Java, PHP, JavaScript</p>
+                </div>
+                <div class="bg-[#1f1f1f] border border-black p-6 rounded-2xl">
+                    <h3 class="text-blue-400 font-bold mb-3">Frameworks</h3>
+                    <p class="text-sm">.NET Framework, Spring Boot, Laravel</p>
+                </div>
+                <div class="bg-[#1f1f1f] border border-black p-6 rounded-2xl">
+                    <h3 class="text-blue-400 font-bold mb-3">Tools & Skills</h3>
+                    <p class="text-sm">Systems Analysis, Requirement Gathering, Git, Docker, Machine Learning</p>
+                </div>
+            </section>
+
+            <section class="w-full max-w-screen-lg">
+                <h2 class="text-3xl font-bold mb-8 text-white">Featured Experience</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <div class="group bg-[#1f1f1f] border border-black p-8 rounded-3xl hover:bg-[#232323] transition-all shadow-lg">
+                        <span class="text-xs font-bold text-blue-400 uppercase tracking-widest">Enterprise ERP</span>
+                        <h3 class="text-2xl font-bold mt-2">InchFAST by Inchcape</h3>
+                        <p class="text-[#888] text-sm mt-3 leading-relaxed">
+                            Developed an end-to-end business system for Mercedes-Benz operations across Engineering, Production, and Quality departments, ensuring data integrity for high-value transactions.
+                        </p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">.NET Framework</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">SQL Server</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Systems Analysis</span>
+                        </div>
+                    </div>
+
+                    <div class="group bg-[#1f1f1f] border border-black p-8 rounded-3xl hover:bg-[#232323] transition-all shadow-lg">
+                        <span class="text-xs font-bold text-yellow-500 uppercase tracking-widest">Mining Operations</span>
+                        <h3 class="text-2xl font-bold mt-2">E-Drive (ABB, SMM, TOP)</h3>
+                        <p class="text-[#888] text-sm mt-3 leading-relaxed">
+                            Engineered a multi-client permit approval system for large-scale mining, automating workflows for 1,000+ active permits to ensure safety compliance.
+                        </p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">.NET Core</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Workflow Automation</span>
+                        </div>
+                    </div>
+
+                    <div class="group bg-[#1f1f1f] border border-black p-8 rounded-3xl hover:bg-[#232323] transition-all shadow-lg">
+                        <span class="text-xs font-bold text-red-500 uppercase tracking-widest">Microservices</span>
+                        <h3 class="text-2xl font-bold mt-2">Semi-Microservice (MII)</h3>
+                        <p class="text-[#888] text-sm mt-3 leading-relaxed">
+                            Implemented and fixed features within a semi-microservice architecture at Mitra Integrasi Informatika, utilizing Docker and Portainer for deployment.
+                        </p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Java Spring Boot</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Docker</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Portainer</span>
+                        </div>
+                    </div>
+
+                    <div class="group bg-[#1f1f1f] border border-black p-8 rounded-3xl hover:bg-[#232323] transition-all shadow-lg">
+                        <span class="text-xs font-bold text-green-400 uppercase tracking-widest">Fintech & AI</span>
+                        <h3 class="text-2xl font-bold mt-2">Bitcoin Price Prediction</h3>
+                        <p class="text-[#888] text-sm mt-3 leading-relaxed">
+                            Developed a Deep Learning model using the LSTM Algorithm to predict market volatility, focusing on high-accuracy time-series forecasting.
+                        </p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Python</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">LSTM</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Machine Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="group bg-[#1f1f1f] border border-black p-8 rounded-3xl hover:bg-[#232323] transition-all shadow-lg">
+                        <span class="text-xs font-bold text-purple-400 uppercase tracking-widest">Logistics & Assessment</span>
+                        <h3 class="text-2xl font-bold mt-2">ComBee & Tracking Delivery</h3>
+                        <p class="text-[#888] text-sm mt-3 leading-relaxed">
+                            Integrated Value Daily Assessments (VDA) for PT Pamapersada Nusantara and built real-time logistics solutions for supply chain visibility.
+                        </p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">.NET</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Real-time Tracking</span>
+                            <span class="text-[10px] border border-[#444] px-2 py-1 rounded bg-black">Supply Chain</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- <section class="bg-[#1f1f1f] border border-black p-10 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-6">
+                <div>
+                    <h2 class="text-2xl font-bold">UPN "Veteran" Jawa Timur</h2>
+                    <p class="text-blue-400">Bachelor of Information Systems </p>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-4xl font-black text-white">3.85<span class="text-lg text-[#888]">/4.00</span></p>
+                    <p class="text-xs font-bold uppercase tracking-widest text-yellow-500">Magna Cum Laude </p>
+                </div>
+            </section> -->
+
         </div>
     </main>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script> -->
 </body>
-
 </html>
